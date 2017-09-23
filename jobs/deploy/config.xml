@@ -31,9 +31,6 @@
     <hudson.tasks.Shell>
       <command>BRANCH=release_2017_09_12 DOMAINS=rail.contenttravelnetwork.com SOURCE_DOMAIN=sabretravelnetwork.com.ua cap staging deploy</command>
     </hudson.tasks.Shell>
-    <hudson.tasks.Shell>
-      <command>BRANCH=release_2017_09_12 DOMAINS=rail.contenttravelnetwork.com SOURCE_DOMAIN=sabretravelnetwork.com.ua cap staging deploy</command>
-    </hudson.tasks.Shell>
   </builders>
   <publishers/>
   <buildWrappers/>
