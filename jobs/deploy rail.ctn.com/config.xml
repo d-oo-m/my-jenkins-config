@@ -5,10 +5,7 @@
   <keepDependencies>false</keepDependencies>
   <properties>
     <org.jenkinsci.plugins.authorizeproject.AuthorizeProjectProperty plugin="authorize-project@1.3.0">
-      <strategy class="org.jenkinsci.plugins.authorizeproject.strategy.SpecificUsersAuthorizationStrategy">
-        <userid>ilchuk_n</userid>
-        <dontRestrictJobConfiguration>false</dontRestrictJobConfiguration>
-      </strategy>
+      <strategy class="org.jenkinsci.plugins.authorizeproject.strategy.TriggeringUsersAuthorizationStrategy"/>
     </org.jenkinsci.plugins.authorizeproject.AuthorizeProjectProperty>
   </properties>
   <scm class="hudson.scm.NullSCM"/>
