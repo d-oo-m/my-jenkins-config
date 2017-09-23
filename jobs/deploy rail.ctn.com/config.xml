@@ -6,7 +6,7 @@
   <properties>
     <org.jenkinsci.plugins.authorizeproject.AuthorizeProjectProperty plugin="authorize-project@1.3.0">
       <strategy class="org.jenkinsci.plugins.authorizeproject.strategy.SpecificUsersAuthorizationStrategy">
-        <userid>90b46df9-86d1-432b-a98c-eafdab31bc0c</userid>
+        <userid>ilcuhk_n</userid>
         <dontRestrictJobConfiguration>false</dontRestrictJobConfiguration>
       </strategy>
     </org.jenkinsci.plugins.authorizeproject.AuthorizeProjectProperty>
