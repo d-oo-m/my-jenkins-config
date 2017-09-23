@@ -5,11 +5,11 @@
       <strategyEnabledMap>
         <entry>
           <string>org.jenkinsci.plugins.authorizeproject.strategy.SpecificUsersAuthorizationStrategy</string>
-          <boolean>true</boolean>
+          <boolean>false</boolean>
         </entry>
         <entry>
           <string>org.jenkinsci.plugins.authorizeproject.strategy.TriggeringUsersAuthorizationStrategy</string>
-          <boolean>false</boolean>
+          <boolean>true</boolean>
         </entry>
         <entry>
           <string>org.jenkinsci.plugins.authorizeproject.strategy.SystemAuthorizationStrategy</string>
@@ -17,7 +17,7 @@
         </entry>
         <entry>
           <string>org.jenkinsci.plugins.authorizeproject.strategy.AnonymousAuthorizationStrategy</string>
-          <boolean>false</boolean>
+          <boolean>true</boolean>
         </entry>
       </strategyEnabledMap>
     </org.jenkinsci.plugins.authorizeproject.ProjectQueueItemAuthenticator>
