@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <user>
   <fullName>ilchuk_n</fullName>
+  <description></description>
   <properties>
     <jenkins.security.ApiTokenProperty>
       <apiToken>{AQAAABAAAAAwG/Ix1utWIEUWZq9lKM7JymwkbMm3ATZ313o2SjNtjHLHi0fjiEY/BnL9nkF8F3tQ0HNdqPQzdn3iFSEaWiH5GQ==}</apiToken>
@@ -25,7 +26,11 @@
         </entry>
       </domainCredentialsMap>
     </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.20">
+      <emailAddress>n.ilchuk@ticketstravelnetwork.com</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
     <hudson.model.MyViewsProperty>
+      <primaryViewName></primaryViewName>
       <views>
         <hudson.model.AllView>
           <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
@@ -42,14 +47,14 @@
     <hudson.model.PaneStatusProperties>
       <collapsed/>
     </hudson.model.PaneStatusProperties>
-    <hudson.search.UserSearchProperty>
-      <insensitiveSearch>true</insensitiveSearch>
-    </hudson.search.UserSearchProperty>
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
       <passwordHash>#jbcrypt:$2a$10$hk1mxyfH1djzKPBce3KZvejwcAwl0SQ9pSb0A6.Us9G2Pjxqt9R7u</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
-    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.20">
-      <emailAddress>n.ilchuk@ticketstravelnetwork.com</emailAddress>
-    </hudson.tasks.Mailer_-UserProperty>
+    <org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
+      <authorizedKeys>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDMaDxj9n7DuNaFhsteWMzJCtn9+iIWvFX2PGlT1K8uVjqHT0/mb13H1xiMP3WH9VI0jRGVmgyO4FG8LEYubX8Eh+xOMDnMNHRcJ+7YRe+kjZDSr/pCDGylO37JjJSRr5oKwIY8CJLcc+j55Qj1bj9uH7NoYdKdpNWZmU6O4UsaG3M+vvUekj/X2KZsOPdLNvB3k92h734+qz+I0M2+gWzOuxMcwi3f7s+ZxRakxb7GvtP1NXSBqNGl4GvJmrgg273Tdji3riEbMv3DqAt5UXceEkLKe6dJif0QhMLogpTy8jsdiZIrRys13eKYBir2vdzF5R0xdzWI5LJDWp+UWGouneGmhGCtHwk0W144veqB5FjxsMeJEa06A8VNpmbIU6qJfafRTm03KyHzunDZO/+NumJwa6l+awFRRbljg1GkB2OSXcPnku7Dhis8GL4987aoWyCMX613IcvIgmqJ2kimIaMrpx718oFOL43rAjbqbtmY0QuFhynFKI+y7lhxHnlTljekhOleq9nQmRDe502XJi5Q/hGaO+lVefdvPEv8EJuIJCanAhFnEBJIG7g48qDVvlSvyipQQ8bnkFXkz29I7UzKS8q30TYzqC8DoMNnSeLgaKk4ceF33TMSHNRSugH2lfyroAgzewEUm0PwX+bV+9VKmaTYtJDRB4uGFP6b5Q== ilchuk_n@ki-technology.ru</authorizedKeys>
+    </org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
+    <hudson.search.UserSearchProperty>
+      <insensitiveSearch>true</insensitiveSearch>
+    </hudson.search.UserSearchProperty>
   </properties>
 </user>
