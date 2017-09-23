@@ -5,7 +5,7 @@
       <strategyEnabledMap>
         <entry>
           <string>org.jenkinsci.plugins.authorizeproject.strategy.SpecificUsersAuthorizationStrategy</string>
-          <boolean>false</boolean>
+          <boolean>true</boolean>
         </entry>
         <entry>
           <string>org.jenkinsci.plugins.authorizeproject.strategy.TriggeringUsersAuthorizationStrategy</string>
