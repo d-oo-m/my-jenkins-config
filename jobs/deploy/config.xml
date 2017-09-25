@@ -29,7 +29,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>BRANCH=release_2017_09_12 DOMAINS=ctn.tickets.com SOURCE_DOMAIN=sabretravelnetwork.com.ua cap staging deploy</command>
+      <command>BRANCH=release_2017_09_12 DOMAINS=ctn.tickets.ua SOURCE_DOMAIN=sabretravelnetwork.com.ua cap staging deploy</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
