@@ -9,6 +9,7 @@
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
         <url>ssh://git@git.tickets.ua:7999/tkt/front2.git</url>
+        <credentialsId>78b05510-75b2-46a0-be5d-1b11892f8b9b</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -26,7 +27,11 @@
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
-  <builders/>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>BRANCH=release_2017_09_12 DOMAINS=rail.contenttravelnetwork.com SOURCE_DOMAIN=sabretravelnetwork.com.ua cap staging deploy</command>
+    </hudson.tasks.Shell>
+  </builders>
   <publishers/>
   <buildWrappers/>
 </project>
