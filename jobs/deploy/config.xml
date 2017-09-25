@@ -9,7 +9,7 @@
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
         <url>ssh://git@git.tickets.ua:7999/tkt/front2.git</url>
-        <credentialsId>68629da4-ff35-4992-b752-0cc8ace86b0f</credentialsId>
+        <credentialsId>f622cb7d-88bb-451f-a92c-e15235d7e998</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -29,14 +29,14 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>BRANCH=release_2017_09_12 DOMAINS=rail.contenttravelnetwork.com SOURCE_DOMAIN=sabretravelnetwork.com.ua cap staging deploy</command>
+      <command>BRANCH=release_2017_09_12 DOMAINS=ctn.tickets.com SOURCE_DOMAIN=sabretravelnetwork.com.ua cap staging deploy</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
   <buildWrappers>
     <com.cloudbees.jenkins.plugins.sshagent.SSHAgentBuildWrapper plugin="ssh-agent@1.15">
       <credentialIds>
-        <string>68629da4-ff35-4992-b752-0cc8ace86b0f</string>
+        <string>f622cb7d-88bb-451f-a92c-e15235d7e998</string>
       </credentialIds>
       <ignoreMissing>false</ignoreMissing>
     </com.cloudbees.jenkins.plugins.sshagent.SSHAgentBuildWrapper>
